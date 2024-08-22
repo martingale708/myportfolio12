@@ -1,0 +1,14 @@
+@import '../../sass/breakpoint';
+
+.header__logo {
+  & img {
+    @include tablet {
+      height: auto;
+      width: 80px;
+    }
+  }
+}
+svg {
+  width: 100px;
+  height: 100px;
+}

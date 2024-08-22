@@ -1,0 +1,123 @@
+@import '../breakpoint';
+
+.filter__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  &-bar {
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 18px;
+    height: 45px;
+    text-align: center;
+    max-width: 180px;
+  }
+}
+.grid__project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  justify-content: space-between;
+  margin-top: 100px;
+  
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+
+  &__card {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden; // Pour cacher les débordements des éléments
+    @include tablet {
+      height: 300px;
+    }
+
+    &-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    &-front, &-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    &-front {
+      z-index: 2;
+      background-color: #fff;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-img {
+        border-radius: 25px;
+        filter: brightness(1.2);
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      &-title {
+        text-transform: uppercase;
+        position: absolute;
+        top: 10px;
+        left: 30%;
+        z-index: 3;
+      }
+    }
+
+    &-back {
+      background: #b4b4b4;
+      border-radius: 25px;
+      transform: translateY(100%);
+      z-index: 1;
+      display: flex; /* Ajouter un affichage flex */
+    flex-direction: column; /* S'assurer que les éléments sont organisés en colonne */
+    justify-content: space-between; /* Espacer uniformément les éléments */
+    padding: 20px; /* Ajouter du padding pour l'espacement interne */
+
+      
+      &-title {
+        text-transform: uppercase;
+        position: absolute;
+        top: 20px;
+        left: 30%;
+      }
+
+      &-desc {
+        position: absolute;
+        left: 20px;
+        top: 70px;
+      }
+
+      &-info {
+        position: absolute;
+        right: 20px;
+        top: 320px;
+        @include tablet {
+          top: 250px;
+        }
+      }
+    }
+  }
+
+  &__card:hover .grid__project__card-back {
+    transform: translateY(0);
+  }
+
+  &__card:hover .grid__project__card-front {
+    transform: translateY(-100%);
+  }
+}

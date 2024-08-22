@@ -1,0 +1,56 @@
+[
+  {
+    "id": "language1",
+    "title": "HTML 5",
+    "image": "../assets/skills/languages/html5.svg",
+    "alt": "Icône HTML5"
+  },
+  {
+    "id": "language2",
+    "title": "CSS 3",
+    "image": "../assets/skills/languages/css3.svg",
+    "alt": "Icône CSS3"
+  },
+  {
+    "id": "language3",
+    "title": "Sass",
+    "image": "../assets/skills/languages/sass.svg",
+    "alt": "Icône Sass"
+  },
+  {
+    "id": "language4",
+    "title": "JavaScript",
+    "image": "../assets/skills/languages/javascript.svg",
+    "alt": "Icône JavaScript"
+  },
+  {
+    "id": "language5",
+    "title": "React",
+    "image": "../assets/skills/languages/react.svg",
+    "alt": "Icône React"
+  },
+  {
+    "id": "language6",
+    "title": "Redux",
+    "image": "../assets/skills/languages/redux.svg",
+    "alt": "Icône Redux"
+  },
+  {
+    "id": "language7",
+    "title": "React-Router",
+    "image": "../assets/skills/languages/react-router.svg",
+    "alt": "Icône React-Router"
+  },
+  {
+    "id": "language8",
+    "title": "Node.js",
+    "image": "../assets/skills/languages/nodejs.png",
+    "alt": "Icône React-Router"
+  },
+  {
+    "id": "language9",
+    "title": "Express",
+    "image": "../assets/skills/languages/expressjs.png",
+    "alt": "Icône React-Router"
+  }
+]

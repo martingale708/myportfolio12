@@ -1,0 +1,163 @@
+@import '../breakpoint';
+ 
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 96%;
+  @include mobile {
+    flex-direction: column;
+  }
+  &__title {
+    display: none;
+  }
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 60%;
+    @include mobile {
+      text-align: center;
+      width: 100%;
+    }
+    &-liens {
+      align-items: center;
+      display: flex;
+      margin-top: 20px;
+      @include mobile {
+        justify-content: center;
+        margin-right: -35px;
+      }
+      & a {
+        padding-right: 35px;
+        & img {
+          @include tablet {
+            height: 60px;
+            width: 60px;
+          }
+          @include mobile {
+            height: 60px;
+            width: 60px;
+          }
+        }
+      }
+    }
+  }
+  &__photo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 25%;
+    @include mobile {
+      margin-top: 40px;
+      width: 100%;
+    }
+    & img {
+      border-radius: 0 25px;
+      max-height: auto;
+      max-width: 310px;
+      @include tablet {
+        max-width: 280px;
+      }
+      @include mobile {
+        max-width: 280px;
+      }
+    }
+    & h3 {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      margin-top: 10px;
+      @include tablet {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+      }
+    }
+  }
+}
+.intro__photo h3 {
+  animation: slideIn 1s ease-out;
+}
+button {
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 0; /* Pour une forme carrée */
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+  transform: translateY(-5px); /* Animation de légère montée au survol */
+}
+
+button:active {
+  transform: translateY(2px); /* Effet d'enfoncement lors du clic */
+}
+
+.buttonGithub {
+  border-color: #333;
+  border-radius: 0;
+}
+
+.buttonContact {
+  border-color: #333;
+}
+
+.buttonGithub:hover {
+  background-color: #333;
+}
+
+.buttonContact:hover {
+  background-color: #333;
+}
+
+/* Responsive: Tablette */
+@media (max-width: 768px) {
+  .intro__desc-liens {
+    flex-direction: column; /* Les boutons seront empilés verticalement */
+    align-items: center;
+  }
+
+  button {
+    width: 80%; /* Les boutons prendront 80% de la largeur de l'écran */
+    font-size: 14px; /* Taille de texte légèrement réduite */
+    padding: 12px; /* Plus de padding pour faciliter le clic sur mobile */
+    margin-bottom: 15px; /* Ajoute une marge inférieure entre les boutons */
+  }
+
+  button:last-child {
+    margin-bottom: 0; /* Retire la marge pour le dernier bouton */
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 480px) {
+  button {
+    width: 80%; /* Les boutons prendront 100% de la largeur de l'écran */
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px; /* Ajoute une marge inférieure entre les boutons */
+  }
+
+  button:last-child {
+    margin-bottom: 0; /* Retire la marge pour le dernier bouton */
+  }
+}

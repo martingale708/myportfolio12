@@ -1,0 +1,124 @@
+// @import '../breakpoint';
+
+// .button-cv {
+//   @include mobile {
+//     display: flex;
+//     justify-content: center;
+//   }
+// }
+
+// .intro__desc-cv {
+//   align-items: center;
+//   display: flex;
+//   justify-content: center;
+//   position: relative;
+//   & img {
+//     height: 30px;
+//     width: 30px;
+//   }
+// }
+
+// /* Nouvel effet de survol */
+// .intro__desc-cv,
+// .error__button,
+// .form__button,
+// .project__button {
+//   position: relative;
+//   display: inline-block;
+//   padding: 15px 40px;
+//   border-radius: 50px;
+//   background-color: #3498db;
+//   color: #fff;
+//   text-transform: uppercase;
+//   font-weight: bold;
+//   transition: all 0.3s ease; /* Transition fluide pour tous les changements */
+// }
+
+// .intro__desc-cv:hover,
+// .error__button:hover,
+// .form__button:hover,
+// .project__button:hover,
+// .intro__desc-cv:focus,
+// .error__button:focus,
+// .form__button:focus,
+// .project__button:focus {
+//   background-color: #2980b9; /* Changement de couleur de fond */
+//   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Apparition d'une ombre douce */
+//   transform: translateY(-3px); /* Légère élévation */
+// }
+
+// /* Suppression de l'effet complexe des anneaux */
+// .intro__desc-cv::before,
+// .error__button::before,
+// .form__button::before,
+// .project__button::before {
+//   display: none; /* Désactivation de l'effet avant */
+// }
+
+// .intro__desc-cv::after,
+// .error__button::after,
+// .form__button::after,
+// .project__button::after {
+//   display: none; /* Désactivation de l'effet après */
+// }
+@import '../breakpoint';
+
+.button-cv {
+  @include mobile {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.intro__desc-cv, .buttonGithub{
+  align-items: center;
+  display: flex;
+  justify-content: center; /* Centre le contenu horizontalement */
+  position: relative;
+  padding: 15px 40px;
+  border-radius: 50px;
+  background-color: #3498db;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Transition fluide pour tous les changements */
+  text-decoration: none;
+  font-size: 8px; /* Ajuste la taille de la police si nécessaire */
+  white-space: nowrap;
+
+  & img {
+    height: 24px; /* Ajuste la taille de l'icône selon le besoin */
+    width: 24px;
+    margin-left: 10px; /* Ajoute un espace entre le texte et l'icône */
+    display: inline-block;
+  }
+}
+
+/* Effet de survol */
+.intro__desc-cv:hover,
+.intro__desc-cv:focus,
+.error__button:hover,
+.error__button:focus,
+.form__button:hover,
+.form__button:focus,
+.project__button:hover,
+.project__button:focus {
+  background-color: #2980b9; /* Changement de couleur de fond */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Apparition d'une ombre douce */
+  transform: translateY(-3px); /* Légère élévation */
+}
+
+/* Suppression de l'effet complexe des anneaux */
+.intro__desc-cv::before,
+.error__button::before,
+.form__button::before,
+.project__button::before {
+  display: none; /* Désactivation de l'effet avant */
+}
+
+.intro__desc-cv::after,
+.error__button::after,
+.form__button::after,
+.project__button::after {
+  display: none; /* Désactivation de l'effet après */
+}

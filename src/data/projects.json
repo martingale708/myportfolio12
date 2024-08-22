@@ -1,0 +1,128 @@
+[
+  {
+    "id": "project1",
+    "title": "Riding Cities",
+    "category": "HTML",
+    "cover": "../assets/projects/riding-cities/cover.webp",
+    "alt": "Photo d'un skateboard",
+    "description": "Le projet 2 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities. BUT:Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML",
+    "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes. Et, ainsi que la mise en place du CSS existant sur les nouveaux éléments. ",
+    "site": "https://matthieu83600.github.io/Riding-Cities/",
+    "github": "https://github.com/martingale708/P2oc"
+  },
+  {
+    "id": "project2",
+    "title": "Booki",
+    "category": "HTML",
+    "cover": "../assets/projects/booki/cover.webp",
+    "alt": "Photo d'un hébergement du site de Booki",
+    "description": "Al'aide d'une maquette,le projet 3 du parcours Intégrateur Web d'OpenClassrooms nous permet d'intégrer l'interface du site de Booki responsive en utilisant du code HTML et CSS.",
+    "mission": "Je rejoins la start-up Booki en tant que développeur en alternance. Je travaille en étroite collaboration avec ma cheffe technique Sarah et le designer Loïc pour mettre en place l'interface du site et responsive.",
+    "site": "https://github.com/martingale708",
+    "github": "https://github.com/martingale708"
+  },
+  {
+    "id": "project3",
+    "title": "Ohmyfood",
+    "category": "HTML",
+    "cover": "../assets/projects/ohmyfood/cover.webp",
+    "alt": "Photo d'un plat d'un restaurant",
+    "description": "Le projet 4 du parcours Intégrateur Web d'OpenClassrooms consite à intégrer l'interface du site d'Ohmyfood en commençant par la version mobile.",
+    "mission": "Je rejoins la start-up Ohmyfood qui souhaite s'imposer sur la marché de la restauration parisienne. Paul, mon chef technique, me demande alors d'intégrer l'interface mobile et responsive tout en mettant en place des animations CSS.",
+    "site": "https://matthieu83600.github.io/OhMyFood/",
+    "github": "https://github.com/martingale708/P4OhMyfood"
+  },
+  {
+    "id": "project4",
+    "title": "Print It",
+    "category": "JavaScript",
+    "cover": "../assets/projects/print-it/cover.webp",
+    "alt": "Photo d'imagerie",
+    "description": "Le projet 5 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
+    "mission": "Je débute en tant que développeur front-end en freelance, et je décroche l'offre qui consiste à dynamiser le site Internet statique de Print It. Le directeur, Lucien Gerodo, me demande alors de réaliser un carrousel dynamique.",
+    "competences": ["Programmer en utilisant les fondamentaux de JavaScript"],
+    "site": "https://matthieu83600.github.io/Print-It/",
+    "github": "https://github.com/martingale708/P5HerizoPrint-it"
+  },
+  {
+    "id": "project5",
+    "title": "PF Sophie Bluel",
+    "category": "JavaScript",
+    "cover": "../assets/projects/portfolio-sophie-bluel/cover.webp",
+    "alt": "Photo de rénovation d'un bar",
+    "description": "Le projet 6 consiste à manipulee le DOM, Gerer les evenements utilisateurs,les formulaires, dans lebut d'une conception du site portfolio d'une architecte en utilisant JavaScript et en communiquant avec une API.",
+    "mission": "Je travaille comme développeur front-end pour l'agence ArchiWebos. Ayant terminé mon dernier projet, je suis envoyé en renfort sur la conception du site portfolio de l'architecte Sophie Bluel. Charlotte, la cheffe de projet, me demande alors de créer à partir de la maquette l'interface du site ainsi que la gestion du compte de l'architecte en communiquant avec une API créée par la développeuse back-end. La connexion avec l'API permettra à Sophie Bluel de pouvoir se connecter et intéragir en ajoutant / supprimant ses travaux.",
+    "github": "https://github.com/martingale708/PageJVdynamique"
+  },
+  {
+    "id": "project6",
+    "title": "Menu Maker",
+    "category": "Gestion de projet",
+    "cover": "../assets/projects/menu-maker/cover.webp",
+    "alt": "Logo du site Menu Maker by Qwenta",
+    "description": "Le projet 7 consiste à mettre en place une méthode de veille technologique,découper une fonctionnalités en tâches pour préparer le développement, Suivre le déroulement du projet grâce à un outil de gestion de projet,présenter la solution techniquel s'agit de planifier le développement du prochain site de notre client Qwenta.",
+    "mission": "Je suis développeur front-end dans l'agence de Webgencia. Soufiane, le product owner, me confie une mission différente de d'habitude. Il s'agit de mener, préparer et planifier le projet de développement d'un site d'un de nos clients.",
+    "github": "https:https://github.com/martingale708"
+  },
+  {
+    "id": "project7",
+    "title": "Kasa",
+    "category": "React",
+    "cover": "../assets/projects/kasa/cover.webp",
+    "alt": "Logo de Kasa",
+    "description": "Le projet 8  développer la nouvelle plateforme web de Kasa en utilisant React.",
+    "mission": "Kasa me recrute en tant que développeur front-end en freelance. Laura, la cheffe technique, me demande de mettre en place la nouvelle plateforme web en utilisant React, grâce aux maquettes créées par Paul le designer de l'équipe.",
+    "github": "https://github.com/martingale708/loca-react-immo-P8"
+  },
+  {
+    "id": "project8",
+    "title": "Nina Carducci",
+    "category": "SEO",
+    "cover": "../assets/projects/nina-carducci/cover.webp",
+    "alt": "Photo de mariage prise par Nina Carducci",
+    "description": "Le projet 9 du parcours Intégrateur Web d'OpenClassrooms consiste à améliorer les performances et le référencement naturel du site d'un client, en se servant des outils comme Lighthouse, wave, schema.org..",
+    "mission": "Je suis développeur front-end en freelance, et je me décide à proposer mes services d'optimisation SEO à de nouveaux clients. Je prends contact avec les administrateurs de divers sites pouvant être optimisés. Nina Carducci, photographe professionnelle à Bordeaux, accepte ma proposition d'optimisation de son site. Ma mission est donc d'optimiser son site tant sur les performances que sur le SEO. Et de mettre en avant cette optimisation en lui fournissant un rapport d'optimisation, lui présentant toutes les actions effectuées ainsi que leur impact.",
+    "site": "https://martingale708.github.io/P9-photographe-SEO/",
+    "github": "https://github.com/martingale708/P9-photographe-SEO"
+  },
+  {
+    "id": "project9",
+    "title": "724 events",
+    "category": "Debug",
+    "cover": "../assets/projects/724events/cover.webp",
+    "alt": "Conférence d'un événement de 724events",
+    "description": "Le projet 10 du parcours Intégrateur Web consiste à débugger le site d'une agence d'événementiel appelée 724events.",
+    "mission": "Je suis développeur front-end en freelance et l'agence 724events me contacte. La mission confiée par Jean-Baptiste, le directeur marketing, est la suivante : débugger le code du site déjà mis en place par un autre développeur qui a dû arrêté le développement, mettre en place des tests unitaires et fonctionnels ainsi que la rédaction d'un cahier de recette comprenant les différents scénarios possibles pour tester le site.",
+    "github": "https://github.com/martingale708/DebuggageP10"
+  },
+  {
+    "id": "project10",
+    "title": "Argent Bank",
+    "category": "React",
+    "cover": "../assets/projects/argent-bank/cover.webp",
+    "alt": "Bannière du site",
+    "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms consiste à implémenter le front-end d'une application bancaire , configurer des routes API pour la communicaion client/server en utilisant Swagger...",
+    "mission": "J'intègre Argent Bank comme développeur front-end. Avery Moreau, chef technique, me confie la mission d'implémenter le front-end de notre application et le tableau de bord de l'utilisateur en communiquant avec l'API.",
+    "github": "https://github.com/martingale708/ArgentBank-website"
+  },
+  {
+    "id": "project11",
+    "title": "Mon Portfolio",
+    "category": "React",
+    "cover": "../assets/projects/my-portfolio/logo-transparent-svg.svg",
+    "alt": "Logo de mon site",
+    "description": "Le projet 12 et dernier projet du parcours Intégrateur Web d'OpenClassrooms consiste à créer et mettre en ligne son site portfolio statique.",
+    "mission": "Elle consiste tout simplement à créer mon portfolio qui me servira à me présenter, mettre en avant les différentes compétences que j'ai acquis, et montrer les projets sur lesquels j'ai travaillé tout au long de ma formation avec OpenClassrooms. Puis de déployer mon site en ligne et qu'il soit responsive c'est-à-dire qu'il s'adapte à tous les écrans : pc, tablette, smartphone.",
+    "tags": ["React", "React-Router", "Sass", "Responsive"],
+    "github": "https://github.com/Matthieu83600/Portfolio"
+  },
+  {
+    "id": "project12",
+    "title": "Mon Portfolio 2.0",
+    "cover": "../assets/projects/a-venir/projetavenir.png",
+    "alt": "Photo à venir",
+    "description": "Pour un meilleur référencement naturel, et j'ai décidé de redévelopper mon portfolio avec Next.js dans un avenir proche",
+    "mission": "Elle consiste simplement à améliorer mon portfolio et à apprendre à utiliser le framework Next.js ainsi que, le framework Tailwind CSS.",
+    "github": "https://github.com/Matthieu83600/Portfolio-2.0"
+  }
+]
