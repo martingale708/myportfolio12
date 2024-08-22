@@ -119,7 +119,7 @@
   {
     "id": "project12",
     "title": "Mon Portfolio 2.0",
-    "cover": "../assets/projects/a-venir/projetavenir.png",
+    "cover": "../assets/projects/futur/projetavenir.png",
     "alt": "Photo à venir",
     "description": "Pour un meilleur référencement naturel, et j'ai décidé de redévelopper mon portfolio avec Next.js dans un avenir proche",
     "mission": "Elle consiste simplement à améliorer mon portfolio et à apprendre à utiliser le framework Next.js ainsi que, le framework Tailwind CSS.",

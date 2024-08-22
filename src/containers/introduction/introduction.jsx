@@ -28,10 +28,10 @@ const Introduction = () => {
        </p>    
        <div className="intro__desc-liens">
   <button  className="buttonGithub"  onClick={() => window.open('https://github.com/martingale708', '_blank')}>
-    GitHub
+    <span className='intro-button'>Github</span>
   </button>
   <button  className="buttonContact"  onClick={() => window.location.href = '/#contact'}>
-    Me contacter
+    <span className='intro-button'>Me contacter</span>
   </button>
 </div>
         <DownloadBtn />

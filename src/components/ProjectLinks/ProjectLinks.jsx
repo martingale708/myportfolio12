@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../sass/components/_projectlinks.scss'; // Importez les styles
+import '../../sass/components/_projectlinks.scss'; 
 
 const ProjectLinks = ({ site, github }) => {
   return (

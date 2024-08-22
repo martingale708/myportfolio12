@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Projects from '../../data/projects.json';
-import Filter from "../../components/FIlter/Filter"; // Assurez-vous que le chemin est correct
+import Filter from "../../components/FIlter/Filter"; 
 import ProjectLinks from "../../components/ProjectLinks/ProjectLinks";
 import '../../sass/components/_projectgrid.scss';
 import '../../sass/components/_tag.scss';
