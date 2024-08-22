@@ -9,7 +9,7 @@ const Logo = () => {
   return (
     <div className="header__logo">
       <Link to="/">
-        <img src={darkMode ? Logodark : Logolight} alt="Mon logo personnel" />
+        <img src={darkMode ? DarkLogoMb : LogoMb} alt="Mon logo personnel" />
       </Link>
     </div>
   )

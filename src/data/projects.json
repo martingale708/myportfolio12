@@ -40,7 +40,6 @@
     "alt": "Photo d'imagerie",
     "description": "Le projet 5 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
     "mission": "Je débute en tant que développeur front-end en freelance, et je décroche l'offre qui consiste à dynamiser le site Internet statique de Print It. Le directeur, Lucien Gerodo, me demande alors de réaliser un carrousel dynamique.",
-    "competences": ["Programmer en utilisant les fondamentaux de JavaScript"],
     "site": "https://matthieu83600.github.io/Print-It/",
     "github": "https://github.com/martingale708/P5HerizoPrint-it"
   },
@@ -113,7 +112,6 @@
     "alt": "Logo de mon site",
     "description": "Le projet 12 et dernier projet du parcours Intégrateur Web d'OpenClassrooms consiste à créer et mettre en ligne son site portfolio statique.",
     "mission": "Elle consiste tout simplement à créer mon portfolio qui me servira à me présenter, mettre en avant les différentes compétences que j'ai acquis, et montrer les projets sur lesquels j'ai travaillé tout au long de ma formation avec OpenClassrooms. Puis de déployer mon site en ligne et qu'il soit responsive c'est-à-dire qu'il s'adapte à tous les écrans : pc, tablette, smartphone.",
-    "tags": ["React", "React-Router", "Sass", "Responsive"],
     "github": "https://github.com/Matthieu83600/Portfolio"
   },
   {
