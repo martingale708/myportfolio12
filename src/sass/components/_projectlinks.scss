@@ -1,24 +1,46 @@
 .project-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  column-gap: 5px;
+
+  .links {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: auto;
-  
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
     .project-link {
-      padding: 10px 20px;
-      background-color: #007bff; // Couleur de fond
-      color: white; // Couleur du texte
-      border: none; // Retirer la bordure
-      border-radius: 5px; // Coins arrondis
-      text-align: center;
+      margin: 5px;
+      padding: 8px;
+      background-color: #007bff;
+      color: white;
       text-decoration: none;
-      display: inline-block;
-      font-size: 14px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-  
+      border-radius: 100px;
+      transition: background-color 0.3s;
+
       &:hover {
-        background-color: #0056b3; // Couleur de fond au survol
+        background-color: #0056b3;
       }
     }
   }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+    .project-tag {
+      margin: 0;
+      padding: 5px;
+      background-color: #f0f0f0;
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #dcdcdc;
+      }
+    }
+  }
+}

@@ -138,7 +138,7 @@ button:active {
   }
 
   button {
-    width: 50%; 
+    width: 30%; 
     font-size: 14px; 
     padding: 12px; 
     margin-bottom: 15px; 
@@ -152,7 +152,7 @@ button:active {
 /* Responsive: Mobile */
 @media (max-width: 480px) {
   button {
-    width: 80%; /* Les boutons prendront 100% de la largeur de l'écran */
+    width: 40%; /* Les boutons prendront 100% de la largeur de l'écran */
     font-size: 14px;
     padding: 10px;
     margin-bottom: 15px; /* Ajoute une marge inférieure entre les boutons */

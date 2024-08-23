@@ -4,12 +4,12 @@ import Error from '../pages/error'
 
 const RoutesPath = () => {
   return (
-    <div>
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/*" element={<Error />} />
       </Routes>
-    </div>
+    </>
   )
 }
 

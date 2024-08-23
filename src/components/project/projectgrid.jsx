@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import Projects from '../../data/projects.json';
-import Filter from "../../components/FIlter/Filter"; 
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import Projects from "../../data/projects.json";
+import Filter from "../../components/FIlter/Filter";
 import ProjectLinks from "../../components/ProjectLinks/ProjectLinks";
-import '../../sass/components/_projectgrid.scss';
-import '../../sass/components/_tag.scss';
+import "../../sass/components/_projectgrid.scss";
+import "../../sass/components/_tag.scss";
 
 const ProjectsPage = () => {
   const [filter, setFilter] = useState("Tout");
@@ -30,39 +30,39 @@ const ProjectsGrid = ({ filter }) => {
   return (
     <div className="grid__project">
       {Projects &&
-        Projects.filter(project => filter === "Tout" || project.category === filter)
-          .map((project) => (
-            <Link
-              key={project.id}
-              to={`/projects/${project.id}`}
-              onClick={handleClick}
-            >
-              <figure className="grid__project__card">
-                <div className="grid__project__card-inner">
-                  <div className="grid__project__card-front">
-                    <img
-                      className="grid__project__card-front-img"
-                      src={project.cover}
-                      alt={project.alt}
-                    />
-                    <h3 className="grid__project__card-front-title">
-                      {project.title}
-                    </h3>
-                  </div>
-                  <figcaption className="grid__project__card-back">
-                    <h3 className="grid__project__card-back-title">
-                      {project.title}
-                    </h3>
-                    <p className="grid__project__card-back-desc">
-                      {project.description}
-                    </p>
-                     {/* Ajouter ProjectLinks ici */}
-                     <ProjectLinks site={project.site} github={project.github} />
-                  </figcaption>
+        Projects.filter(
+          (project) => filter === "Tout" || project.category === filter
+        ).map((project) => (
+          <Link
+            key={project.id}
+            to={`/projects/${project.id}`}
+            onClick={handleClick}
+          >
+            <figure className="grid__project__card">
+              <div className="grid__project__card-inner">
+                <div className="grid__project__card-front">
+                  <img
+                    className="grid__project__card-front-img"
+                    src={project.cover}
+                    alt={project.alt}
+                  />
+                  <h3 className="grid__project__card-front-title">
+                    {project.title}
+                  </h3>
                 </div>
-              </figure>
-            </Link>
-          ))}
+                <figcaption className="grid__project__card-back">
+                  <h3 className="grid__project__card-back-title">
+                    {project.title}
+                  </h3>
+                  <p className="grid__project__card-back-desc">
+                    {project.description}
+                  </p>
+                  <ProjectLinks site={project.site} github={project.github} tags={project.tags} />
+                </figcaption>
+              </div>
+            </figure>
+          </Link>
+        ))}
     </div>
   );
 };
