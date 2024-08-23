@@ -1,18 +1,9 @@
-import { useTheme } from '../../utils/hooks/index'
 import DownloadBtn from '../../components/downloadbtn/downloadbtn'
 import MaPhoto from '../../assets/photo/Js.png'
-// import GitHub from '../../assets/icones/github.png'
-// import DarkGitHub from '../../assets/icones/darkgithub.png'
-// import LinkedIn from '../../assets/icones/linkedin.png'
-// import DarkLinkedIn from '../../assets/icones/darklinkedin.png'
-// import Twitter from '../../assets/icones/twitter.png'
-// import DarkTwitter from '../../assets/icones/darktwitter.png'
  import ImageStyle from '../../utils/style/imagestyle'
 import '../../sass/containers/_introduction.scss'
 
 const Introduction = () => {
-  const { darkMode } = useTheme()
-
   return (
     <section className="intro">
       <h2 id="a-propos" className="intro__title">
