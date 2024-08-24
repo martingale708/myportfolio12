@@ -33,9 +33,6 @@ const ProjectsGrid = ({ filter }) => {
         Projects.filter(
           (project) => filter === "Tout" || project.category === filter
         ).map((project) => {
-          console.log("Project:", project); // Log de chaque projet
-          console.log("Site:", project.site); // Log de l'URL du site
-          console.log("GitHub:", project.github); // Log de l'URL GitHub
           return (
             <Link
               key={project.id}
@@ -55,9 +52,9 @@ const ProjectsGrid = ({ filter }) => {
                     </h3>
                   </div>
                   <figcaption className="grid__project__card-back">
-                    <h3 className="grid__project__card-back-title">
+                    <span className="grid__project__card-back-title">
                       {project.title}
-                    </h3>
+                    </span>
                     <p className="grid__project__card-back-desc">
                       {project.description}
                     </p>

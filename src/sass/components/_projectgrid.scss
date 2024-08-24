@@ -90,23 +90,14 @@
 
       
       &-title {
+        font-weight: 800;
         text-transform: uppercase;
         position: absolute;
         top: 20px;
         left: 30%;
       }
-
       &-desc {
         margin-top: 25px;
-      }
-
-      &-info {
-        position: absolute;
-        right: 20px;
-        top: 320px;
-        @include tablet {
-          top: 250px;
-        }
       }
     }
   }

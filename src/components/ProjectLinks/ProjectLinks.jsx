@@ -17,7 +17,7 @@ const ProjectLinks = ({ site, github, tags }) => {
             rel="noopener noreferrer"
             onClick={(e) => handleExternalLinkClick(e, site)}
           >
-            Voir le site
+              voir le site
           </a>
         )}
         {github && (
@@ -28,7 +28,7 @@ const ProjectLinks = ({ site, github, tags }) => {
             rel="noopener noreferrer"
             onClick={(e) => handleExternalLinkClick(e, github)}
           >
-            Voir sur GitHub
+             GitHub
           </a>
         )}
       </div>
