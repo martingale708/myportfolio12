@@ -1,11 +1,13 @@
-import React from "react";
+ import React from "react";
+import PropTypes from "prop-types";
 import "../../sass/components/_projectlinks.scss";
 
-const ProjectLinks = ({ site, github, tags }) => {
+const ProjectLinks = ({ site = "", github = "", tags = [] }) => {
   const handleExternalLinkClick = (e, url) => {
     e.preventDefault();
     window.open(url, "_blank", "noopener,noreferrer");
   };
+
   return (
     <div className="project-links">
       <div className="links">
@@ -17,7 +19,7 @@ const ProjectLinks = ({ site, github, tags }) => {
             rel="noopener noreferrer"
             onClick={(e) => handleExternalLinkClick(e, site)}
           >
-              voir le site
+            voir le site
           </a>
         )}
         {github && (
@@ -28,20 +30,25 @@ const ProjectLinks = ({ site, github, tags }) => {
             rel="noopener noreferrer"
             onClick={(e) => handleExternalLinkClick(e, github)}
           >
-             GitHub
+            GitHub
           </a>
         )}
       </div>
       <div className="tags">
-        {tags &&
-          tags.map((tag, index) => (
-            <button key={index} className="project-tag">
-              {tag}
-            </button>
-          ))}
+        {tags.map((tag, index) => (
+          <button key={tag} className="project-tag">
+            {tag}
+          </button>
+        ))}
       </div>
     </div>
   );
+};
+
+ProjectLinks.propTypes = {
+  site: PropTypes.string,
+  github: PropTypes.string,
+  tags: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default ProjectLinks;
