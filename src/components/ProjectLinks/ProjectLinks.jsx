@@ -2,6 +2,10 @@ import React from "react";
 import "../../sass/components/_projectlinks.scss";
 
 const ProjectLinks = ({ site, github, tags }) => {
+  const handleExternalLinkClick = (e, url) => {
+    e.preventDefault();
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <div className="project-links">
       <div className="links">
@@ -11,6 +15,7 @@ const ProjectLinks = ({ site, github, tags }) => {
             className="project-link"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => handleExternalLinkClick(e, site)}
           >
             Voir le site
           </a>
@@ -21,6 +26,7 @@ const ProjectLinks = ({ site, github, tags }) => {
             className="project-link"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => handleExternalLinkClick(e, github)}
           >
             Voir sur GitHub
           </a>

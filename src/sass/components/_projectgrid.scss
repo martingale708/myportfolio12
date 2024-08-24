@@ -83,10 +83,10 @@
       border-radius: 25px;
       transform: translateY(100%);
       z-index: 1;
-      display: flex; /* Ajouter un affichage flex */
-    flex-direction: column; /* S'assurer que les éléments sont organisés en colonne */
-    justify-content: space-between; /* Espacer uniformément les éléments */
-    padding: 20px; /* Ajouter du padding pour l'espacement interne */
+      display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    padding: 20px; 
 
       
       &-title {
@@ -97,9 +97,6 @@
       }
 
       &-desc {
-        // position: absolute;
-        // left: 20px;
-        // top: 10px;
         margin-top: 25px;
       }
 

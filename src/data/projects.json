@@ -7,7 +7,7 @@
     "alt": "Photo d'un skateboard",
     "description": "Le projet 1 permet de découvrir les fondamentaux du langage HTML au travers du site Internet de Riding Cities.",
     "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes. Et, ainsi que la mise en place du CSS existant sur les nouveaux éléments. ",
-    "site": "https://matthieu83600.github.io/Riding-Cities/",
+    "site":"https://martingale708.github.io/P2oc/",
     "github": "https://martingale708.github.io/P2oc/",
     "tags": ["HTML", "CSS"]
   },
@@ -31,7 +31,7 @@
     "alt": "Photo d'un plat d'un restaurant",
     "description": "Intégrer l'interface du site d'Ohmyfood en commençant par la version mobile.",
     "mission": "Je rejoins la start-up Ohmyfood qui souhaite s'imposer sur la marché de la restauration parisienne. Paul, mon chef technique, me demande alors d'intégrer l'interface mobile et responsive tout en mettant en place des animations CSS.",
-    "site": "https://matthieu83600.github.io/OhMyFood/",
+    "site": "https://martingale708.github.io/P4OhMyfood/",
     "github": "https://github.com/martingale708/P4OhMyfood",
     "tags": ["HTML", "Sass", "Figma"]
   },
@@ -43,7 +43,7 @@
     "alt": "Photo d'imagerie",
     "description": "Le projet 4 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
     "mission": "Je débute en tant que développeur front-end en freelance, et je décroche l'offre qui consiste à dynamiser le site Internet statique de Print It. Le directeur, Lucien Gerodo, me demande alors de réaliser un carrousel dynamique.",
-    "site": "https://matthieu83600.github.io/Print-It/",
+    "site": "https://martingale708.github.io/P5HerizoPrint-it/",
     "github": "https://github.com/martingale708/P5HerizoPrint-it",
     "tags": ["HTML", "CSS", "JavaScript"]
   },

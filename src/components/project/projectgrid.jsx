@@ -32,37 +32,46 @@ const ProjectsGrid = ({ filter }) => {
       {Projects &&
         Projects.filter(
           (project) => filter === "Tout" || project.category === filter
-        ).map((project) => (
-          <Link
-            key={project.id}
-            to={`/projects/${project.id}`}
-            onClick={handleClick}
-          >
-            <figure className="grid__project__card">
-              <div className="grid__project__card-inner">
-                <div className="grid__project__card-front">
-                  <img
-                    className="grid__project__card-front-img"
-                    src={project.cover}
-                    alt={project.alt}
-                  />
-                  <h3 className="grid__project__card-front-title">
-                    {project.title}
-                  </h3>
+        ).map((project) => {
+          console.log("Project:", project); // Log de chaque projet
+          console.log("Site:", project.site); // Log de l'URL du site
+          console.log("GitHub:", project.github); // Log de l'URL GitHub
+          return (
+            <Link
+              key={project.id}
+              to={`/projects/${project.id}`}
+              onClick={handleClick}
+            >
+              <figure className="grid__project__card">
+                <div className="grid__project__card-inner">
+                  <div className="grid__project__card-front">
+                    <img
+                      className="grid__project__card-front-img"
+                      src={project.cover}
+                      alt={project.alt}
+                    />
+                    <h3 className="grid__project__card-front-title">
+                      {project.title}
+                    </h3>
+                  </div>
+                  <figcaption className="grid__project__card-back">
+                    <h3 className="grid__project__card-back-title">
+                      {project.title}
+                    </h3>
+                    <p className="grid__project__card-back-desc">
+                      {project.description}
+                    </p>
+                    <ProjectLinks
+                      site={project.site}
+                      github={project.github}
+                      tags={project.tags}
+                    />
+                  </figcaption>
                 </div>
-                <figcaption className="grid__project__card-back">
-                  <h3 className="grid__project__card-back-title">
-                    {project.title}
-                  </h3>
-                  <p className="grid__project__card-back-desc">
-                    {project.description}
-                  </p>
-                  <ProjectLinks site={project.site} github={project.github} tags={project.tags} />
-                </figcaption>
-              </div>
-            </figure>
-          </Link>
-        ))}
+              </figure>
+            </Link>
+          );
+        })}
     </div>
   );
 };
