@@ -128,7 +128,8 @@
     "alt": "Logo de mon site",
     "description": "Le  dernier projet consiste à créer et mettre en ligne son site portfolio statique.",
     "mission": "Elle consiste tout simplement à créer mon portfolio qui me servira à me présenter, mettre en avant les différentes compétences que j'ai acquis, et montrer les projets sur lesquels j'ai travaillé tout au long de ma formation avec OpenClassrooms. Puis de déployer mon site en ligne et qu'il soit responsive c'est-à-dire qu'il s'adapte à tous les écrans : pc, tablette, smartphone.",
-    "github": "https://github.com/martingale708/myportfolio12",
+    "github" :"https://github.com/martingale708/myportfolio12",
+    "site": "https://monportfolio12.netlify.app/",
     "tags": ["React", "React-Router", "Sass"]
   },
   {

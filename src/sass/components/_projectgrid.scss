@@ -101,12 +101,15 @@
       }
     }
   }
+}
+.grid__project__card:hover .grid__project__card-back,
+.grid__project__card:active .grid__project__card-back,
+.grid__project__card:focus .grid__project__card-back {
+  transform: translateY(0);
+}
 
-  &__card:hover .grid__project__card-back {
-    transform: translateY(0);
-  }
-
-  &__card:hover .grid__project__card-front {
-    transform: translateY(-100%);
-  }
+.grid__project__card:hover .grid__project__card-front,
+.grid__project__card:active .grid__project__card-front,
+.grid__project__card:focus .grid__project__card-front {
+  transform: translateY(-100%);
 }
