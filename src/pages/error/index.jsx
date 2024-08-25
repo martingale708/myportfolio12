@@ -4,7 +4,7 @@ import LightError from '../../assets/error/404-page-not-found.png'
 import DarkError from '../../assets/error/darkmode-404-page-not-found.png'
 import '../../sass/pages/_error.scss'
 
-const Error = () => {
+const PageError = () => {
   const { darkMode } = useTheme()
   return (
     <main className="error">
@@ -25,4 +25,4 @@ const Error = () => {
   )
 }
 
-export default Error
+export default PageError

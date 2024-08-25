@@ -23,14 +23,14 @@ const ProjectsPage = () => {
 };
 
 const ProjectsGrid = ({ filter }) => {
-  const handleClick = () => {
+  const handleClick = (event) => {
+    event.preventDefault();
     window.scrollTo(0, 0);
   };
 
   return (
     <div className="grid__project">
-      {Projects &&
-        Projects.filter(
+      {Projects?.filter(
           (project) => filter === "Tout" || project.category === filter
         ).map((project) => {
           return (
@@ -75,5 +75,8 @@ const ProjectsGrid = ({ filter }) => {
 Filter.propTypes = {
   onFilterChange: PropTypes.func.isRequired,
   activeFilter: PropTypes.string.isRequired,
+};
+ProjectsGrid.propTypes = {
+  filter: PropTypes.string, 
 };
 export default ProjectsPage;
