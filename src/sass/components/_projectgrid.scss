@@ -54,7 +54,7 @@
     }
 
     &-front {
-     color: #333333;
+     color:black;
       z-index: 2;
       background-color: #FFFFFF;
       color:#333333;
@@ -65,19 +65,22 @@
 
       &-img {
         border-radius: 25px;
-        filter: brightness(1.2);
+        filter: brightness(1.1);
         height: 100%;
         object-fit: cover;
         width: 100%;
       }
 
       &-title {
-        color: #000000;
+        color:#FFFFFF;
         text-transform: uppercase;
         position: absolute;
         top: 10px;
         left: 30%;
         z-index: 3;
+        background-color: rgba(0, 0, 0, 0.5); // Fond noir semi-transparent
+        padding: 5px 10px; // Pour ajouter un peu d'espace autour du texte
+        border-radius: 5px; // Pour arrondir les coins du fond
       }
     }
 
@@ -93,11 +96,13 @@
 
       
       &-title {
+        color: #000000;
         font-weight: 800;
         text-transform: uppercase;
         position: absolute;
         top: 20px;
         left: 30%;
+        // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       }
       &-desc {
         margin-top: 25px;
