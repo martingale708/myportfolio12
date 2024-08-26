@@ -1,5 +1,5 @@
 import ButtonStyle from '../../utils/style/boutonstyle'
-import pdf from '../../assets/icones/pdf.svg'
+import pdf from '../../assets/download/pdf.svg'
 import cv from '../../assets/download/cv.pdf'
 import '../../sass/components/_buttonstyle.scss'
 
