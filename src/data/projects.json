@@ -8,7 +8,7 @@
     "description": "Le projet 1 permet de découvrir les fondamentaux du langage HTML au travers du site Internet de Riding Cities.",
     "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes. Et, ainsi que la mise en place du CSS existant sur les nouveaux éléments. ",
     "site":"https://martingale708.github.io/P2oc/",
-    "github": "https://martingale708.github.io/P2oc/",
+    "github": "https://github.com/martingale708/P2oc",
     "tags": ["HTML", "CSS"]
   },
   {
@@ -19,8 +19,8 @@
     "alt": "Photo d'un hébergement du site de Booki",
     "description": "Al'aide d'une maquette :intégrer l'interface du site de Booki responsive en utilisant du code HTML et CSS.",
     "mission": "Je rejoins la start-up Booki en tant que développeur en alternance. Je travaille en étroite collaboration avec ma cheffe technique Sarah et le designer Loïc pour mettre en place l'interface du site et responsive.",
-    "site": "https://github.com/martingale708",
-    "github": "https://github.com/martingale708",
+    "site": "https://martingale708.github.io/P2booki/",
+    "github": "https://github.com/martingale708/P2booki",
     "tags": ["HTML", "CSS", "Figma"]
   },
   {
@@ -78,6 +78,7 @@
     "description": "Le projet 7 consiste à  développer la nouvelle plateforme web de Kasa en utilisant React.",
     "mission": "Kasa me recrute en tant que développeur front-end en freelance. Laura, la cheffe technique, me demande de mettre en place la nouvelle plateforme web en utilisant React, grâce aux maquettes créées par Paul le designer de l'équipe.",
     "github": "https://github.com/martingale708/loca-react-immo-P8",
+    "site" :"https://kasa8.netlify.app/",
     "tags": ["React", "React-Router", "Sass", "Figma"]
   },
   {
@@ -101,6 +102,7 @@
     "description": "Débugger le site d'une agence d'événementiel appelée 724events.",
     "mission": "Je suis développeur front-end en freelance et l'agence 724events me contacte. La mission confiée par Jean-Baptiste, le directeur marketing, est la suivante : débugger le code du site déjà mis en place par un autre développeur qui a dû arrêté le développement, mettre en place des tests unitaires et fonctionnels ainsi que la rédaction d'un cahier de recette comprenant les différents scénarios possibles pour tester le site.",
     "github": "https://github.com/martingale708/DebuggageP10",
+    "site":"https://724events10.netlify.app/",
     "tags": ["React", "Tests", "Debug", "Chrome DevTools"]
   },
   {
@@ -112,6 +114,7 @@
     "description": " Implémenter le front-end d'une application bancaire , configurer des routes API avec Swagger...",
     "mission": "J'intègre Argent Bank comme développeur front-end. Avery Moreau, chef technique, me confie la mission d'implémenter le front-end de notre application et le tableau de bord de l'utilisateur en communiquant avec l'API.",
     "github": "https://github.com/martingale708/ArgentBank-website",
+    "site" :"https://argentbank11.netlify.app/",
     "tags": [
       "React",
       "Redux",

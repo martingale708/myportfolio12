@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
       color: ${(props) => (props.theme.darkMode ? 'white' : 'black')}; 
     }
     .grid__project__card-front-title {
-      color: ${(props) => (props.theme.darkMode ? '#FFFFFF' : '#FFFFFF')};
+      color: ${(props) => (props.theme.darkMode ? '#FFF' : '#FFFFFF')};
     }
     .grid__project__card-back {
       background-color: ${(props) =>
@@ -26,7 +26,6 @@ export const ThemeContext = createContext()
 
 export const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(() => {
-    // Récupérer la valeur du thème à partir du localStorage ou utiliser un thème par défaut.
     return JSON.parse(localStorage.getItem('darkMode')) || false
   })
 
