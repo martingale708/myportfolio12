@@ -40,7 +40,7 @@ const ProjectsGrid = ({ filter }) => {
               onClick={handleClick}
             >
               <figure className="grid__project__card">
-                <div className="grid__project__card-inner">
+                <div className="grid__project__card-containers">
                   <div className="grid__project__card-front">
                     <img
                       className="grid__project__card-front-img"
