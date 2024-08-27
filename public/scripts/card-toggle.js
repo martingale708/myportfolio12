@@ -36,7 +36,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.grid__project__card');
   
     cards.forEach(card => {
-      card.addEventListener('click', function () {
+      card.addEventListener('click', function (event) {
+        event.preventDefault(); // Empêche le comportement par défaut du navigateur
         card.classList.toggle('active');
       });
     });
