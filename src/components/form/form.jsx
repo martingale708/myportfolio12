@@ -1,5 +1,5 @@
-import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import React, { useRef } from 'react'
 import ButtonStyle from '../../utils/style/boutonstyle'
 import '../../sass/components/_form.scss'
 import '../../sass/components/_buttonstyle.scss'
@@ -12,10 +12,10 @@ export const Form = () => {
     e.preventDefault()
     emailjs
       .sendForm(
-        'service_g9v4cvy',
-        'template_r0xirue',
+        'service_7ntiqx9',
+        'template_xwi31sh',
         form.current,
-        'XPl0FQOrTSCNdoxnk',
+        '6IAsEeETC_ST-_FV6',
       )
       .then(
         (result) => {

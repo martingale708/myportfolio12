@@ -102,7 +102,6 @@
         position: absolute;
         top: 20px;
         left: 30%;
-        // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       }
       &-desc {
         margin-top: 25px;
@@ -110,14 +109,31 @@
     }
   }
 }
+//Desktop
 .grid__project__card:hover .grid__project__card-back,
-.grid__project__card:active .grid__project__card-back,
 .grid__project__card:focus .grid__project__card-back {
   transform: translateY(0);
 }
 
 .grid__project__card:hover .grid__project__card-front,
-.grid__project__card:active .grid__project__card-front,
 .grid__project__card:focus .grid__project__card-front {
   transform: translateY(-100%);
+}
+@include mobile{
+  .grid__project__card.active .grid__project__card-back {
+    transform: translateY(0);
+  }
+  
+  .grid__project__card.active .grid__project__card-front {
+    transform: translateY(-100%);
+  }
+}
+@include tablet{
+  .grid__project__card.active .grid__project__card-back {
+    transform: translateY(0);
+  }
+  
+  .grid__project__card.active .grid__project__card-front {
+    transform: translateY(-100%);
+  }
 }
