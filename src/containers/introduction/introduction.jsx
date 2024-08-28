@@ -11,11 +11,8 @@ const Introduction = () => {
       </h2>
       <div className="intro__desc">
        <p> 
-       Titulaire d'une licence en mathématiques et fort de mon expérience en tant que professeur particulier, 
-       je me suis tourné vers le développement web pour élargir mes compétences et envisager une carrière en freelance
-       Passionné par les nouvelles technologies, j'ai suivi la formation d'intégrateur web d'OpenClassrooms, 
-       où j'ai acquis une solide maîtrise de HTML, CSS, JavaScript etc...
-       Je suis enthousiaste à l'idée de continuer à explorer ce domaine tout en renforçant mes compétences
+       Titulaire d’une licence en mathématiques et fort de mon expérience en tant que professeur particulier, je me suis tourné vers le développement web pour élargir mes compétences et envisager une carrière en freelance. Passionné par les nouvelles technologies, j’ai suivi la formation d’intégrateur web d’OpenClassrooms, où j’ai acquis une solide maîtrise de HTML, CSS, JavaScript, etc. 
+       Je suis enthousiaste à l’idée de continuer à explorer ce domaine tout en renforçant mes compétences.
        </p>    
        <div className="intro__desc-liens">
   <button  className="buttonGithub"  onClick={() => window.open('https://github.com/martingale708', '_blank')}>
